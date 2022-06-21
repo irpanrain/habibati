@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umi 💖 Utuns 💖  Aby</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <div class="bgoverlay">
+        <div class="container">
+        <span class="ico">
+            <span class="ico2"></span>
+            <span class="title">Click Me</span>
+        </span>
+        <div class="endtext">
+            <span class="close" title="Restart"><i class="fa fa-times"></i></span>  
+            <h1>I Love You</h1>
+            <h2>Ayang 💜 Utuns</h2>
+            <h3>From Aby</h3>
+            <h3>❣</h3>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.title').click(function(){
+                $('.container').addClass('open');
+            });
+            
+            
+            $('.close').click(function(){
+                $('.container').removeClass('open');
+            });
+        });
+    </script>
+</html>
